@@ -60,19 +60,3 @@
 
 * **Tab 1: Executive Overview** – High-level KPIs tracking overall revenue, churn rate, and active user counts.
 * **Tab 2: Customer Friction Points** – Breakdown of support response times versus customer drop-off rates.
-
----
-
-## 💡 Strategic Recommendations
-Based on the data, the following three actions are recommended to management:
-1. **Automate Support Triage:** Implement an automated chatbot for common tracking questions to reduce ticket response times for high-value accounts below 12 hours.
-2. **Targeted Re-engagement:** Launch an email re-engagement campaign offering a 15% discount code specifically to the high-churn 18–25 age demographic.
-3. **Product Quality Review:** Conduct a quality assurance check on the "Electronics" inventory line due to disproportionately high return and churn rates.
-
----
-
-## 🏁 How to Replicate This Analysis
-1. Clone this repository: `git clone https://github.com`
-2. Run the SQL scripts in `/src/database_setup.sql` to build the schema.
-3. Open the Jupyter Notebook `/notebooks/data_cleaning.ipynb` to see the Python transformation steps.
-4. Open the Power BI `.pbix` file in `/dashboards/` to interact with the local visualization file.
